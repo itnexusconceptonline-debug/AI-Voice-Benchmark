@@ -349,7 +349,7 @@ tbody td.feature-name {
 
 <!-- Hero -->
 <div class="hero">
-  <div class="hero-eyebrow">Nexus Concept · Internal Research · Feb 2026</div>
+  <div class="hero-eyebrow">Nexus Concept · Internal Research · Feb 2026 · 856 Calls Tested</div>
   <h1>AI Voice Agent<br><span>Competitive Benchmark</span></h1>
   <p>Outbound appointment booking · Lead qualification · Mandarin/Malaysian market · VAPI-stack vs SaaS alternatives</p>
   <div class="hero-badge">Focused on: Kalodata Demo Booking Use Case</div>
@@ -365,9 +365,9 @@ tbody td.feature-name {
     <div class="cost-card nexus-card">
       <div class="brand">Nexus Concept</div>
       <div class="brand-sub">Custom VAPI Build (Kalodata)</div>
-      <div class="price-big">~RM0.25</div>
-      <div class="price-unit">per minute · all-in est.</div>
-      <div class="price-note">VAPI $0.05 + Deepgram $0.01 + Claude $0.02 + Twilio $0.01 + n8n hosting. Client owns system outright.</div>
+      <div class="price-big">~$0.15</div>
+      <div class="price-unit">per minute · all-in (in-house tested, 2 weeks)</div>
+      <div class="price-note">Verified: 856 test calls over 2 weeks. VAPI $0.05/min + GPT-4.1 + Azure TTS (zh-CN) + Deepgram Nova 2 + Twilio $0.042/call. ~RM0.70/min. Client owns system outright.</div>
       <span class="tag gold">One-time build fee</span>
     </div>
 
@@ -477,7 +477,7 @@ tbody td.feature-name {
         </tr>
         <tr>
           <td class="feature-name">Per-Minute Cost (true all-in)</td>
-          <td class="nexus-col">~RM0.25 (~$0.055)</td>
+          <td class="nexus-col">~$0.15/min (~RM0.70) ✦ lab tested</td>
           <td>$0.13–0.33/min</td>
           <td>$0.07–0.14/min</td>
           <td>$0.08/min bundled</td>
@@ -543,7 +543,7 @@ tbody td.feature-name {
         </tr>
         <tr>
           <td class="feature-name">Response Latency</td>
-          <td class="nexus-col">&lt;600ms (VAPI)</td>
+          <td class="nexus-col">~1,100ms (VAPI verified)</td>
           <td>&lt;500ms</td>
           <td>500–800ms</td>
           <td>&lt;500ms</td>
@@ -776,7 +776,7 @@ tbody td.feature-name {
         <li>Call recording & transcript logging</li>
         <li>30-day post-launch support</li>
       </ul>
-      <div class="tier-note">+ Client pays own VAPI (~$20/mo) + n8n (~$20/mo) + usage fees</div>
+      <div class="tier-note">+ Client pays own providers: VAPI + Twilio + OpenAI + Deepgram (~$88/mo verified for ~200 calls/2wks)</div>
     </div>
 
     <div class="tier-card featured">
@@ -848,7 +848,7 @@ tbody td.feature-name {
       </div>
     </div>
     <div style="font-size:11px;color:var(--muted);margin-bottom:8px;">
-      Total minutes: <strong id="total-min" style="color:var(--text);">600</strong> &nbsp;·&nbsp; Estimated monthly usage cost only (excludes one-time build fees)
+      Total minutes: <strong id="total-min" style="color:var(--text);">600</strong> &nbsp;·&nbsp; Estimated monthly usage cost only (excludes one-time build fees) · Nexus Concept rate based on in-house 856-call / 2-week test
     </div>
     <div class="calc-result" id="calc-result"></div>
   </div>
@@ -873,13 +873,13 @@ tbody td.feature-name {
     <div class="roi-card">
       <h3>Nexus Concept AI Voice Agent</h3>
       <div class="roi-row"><span class="roi-label">One-time build (Professional)</span><span class="roi-val neg">USD2,000 (~RM9,400)</span></div>
-      <div class="roi-row"><span class="roi-label">VAPI + n8n platform/mo</span><span class="roi-val neg">~RM180/mo</span></div>
-      <div class="roi-row"><span class="roi-label">Usage cost (200 calls × 3 min)</span><span class="roi-val neg">~RM70/mo</span></div>
+      <div class="roi-row"><span class="roi-label">VAPI + Twilio + OpenAI + n8n/mo</span><span class="roi-val neg">~RM413/mo (~$88)</span></div>
+      <div class="roi-row"><span class="roi-label">Breakdown: Twilio $39.87 + VAPI + GPT-4.1 + Deepgram</span><span class="roi-val neg">Verified: 856 calls / 2 weeks</span></div>
       <div class="roi-row"><span class="roi-label">Maintenance retainer</span><span class="roi-val neg">RM1,200/mo (optional)</span></div>
       <div class="roi-row"><span class="roi-label">Working hours</span><span class="roi-val pos">24/7 · 365 days</span></div>
       <div class="roi-row"><span class="roi-label">Calls handled simultaneously</span><span class="roi-val pos">10+ concurrent</span></div>
-      <div class="roi-row"><span class="roi-label">Total annual cost (yr 1)</span><span class="roi-val pos">~RM27,000</span></div>
-      <div class="roi-row"><span class="roi-label">Savings vs human (yr 1)</span><span class="roi-val pos">RM9,000–27,000</span></div>
+      <div class="roi-row"><span class="roi-label">Total annual cost (yr 1)</span><span class="roi-val pos">~RM29,000</span></div>
+      <div class="roi-row"><span class="roi-label">Savings vs human (yr 1)</span><span class="roi-val pos">RM7,000–25,000</span></div>
     </div>
   </div>
 </div>
@@ -889,6 +889,7 @@ tbody td.feature-name {
   <div class="verdict">
     <h3>◆ Competitive Position Summary</h3>
     <p><strong>vs SaaS (Synthflow, My AI Front Desk):</strong> SaaS tools are easy to set up but clients pay forever and never own the system. A Synthflow Pro at $29/mo ($0.08/min) costs $348/yr minimum — and scales steeply with volume. Our USD1,000 Starter breaks even vs Synthflow in <strong>under 3 years of subscription</strong>, with ownership after that. Professional USD2,000 breaks even vs enterprise SaaS in under 12 months.</p>
+    <p><strong>📊 In-House Test Results (2 weeks, 856 calls):</strong> Twilio $39.87 total ($35.65 voice + $4.00 phone numbers + $0.23 AMD). Per-call Twilio cost: ~$0.042. All-in cost across all providers: ~$0.15/min (~RM0.70/min). Total platform cost for ~200 calls/mo estimated at ~$88/mo (~RM413). These are real numbers from production testing — not estimates.</p>
     <p><strong>vs DIY VAPI / Retell / Bland:</strong> These platforms require developer expertise, multiple vendor accounts, and ongoing engineering time. True costs run $0.13–0.33/min with 4–5 separate invoices monthly. We've already solved all the hard problems — Mandarin STT tuning, Malaysia timezone logic, holiday blocking, n8n integration, booking flows — and deliver it as a ready product.</p>
     <p><strong>Our unique advantages:</strong> <strong>Local Mandarin support</strong> (no competitor touches this), <strong>Malaysian market knowledge</strong> (timezone, holidays, cultural tone), <strong>full stack ownership</strong> (client keeps the system), and <strong>n8n deep integration</strong> that no SaaS platform matches out of the box.</p>
     <p><strong>Positioning:</strong> Premium custom build at a fair one-time price. Not competing on $/min — competing on fit, language capability, and ownership value.</p>
@@ -902,7 +903,7 @@ tbody td.feature-name {
 
 <script>
 const platforms = [
-  { name:'Nexus Concept', rate:0.055, extra:250, currency:'RM', note:'~RM0.25/min all-in', cls:'nexus-item' },
+  { name:'Nexus Concept', rate:0.15, extra:0, currency:'USD', note:'~$0.15/min · lab tested 856 calls', cls:'nexus-item' },
   { name:'VAPI (true cost)', rate:0.20, extra:500, currency:'USD', note:'$0.05 base + stack', cls:'' },
   { name:'Retell AI',       rate:0.11, extra:0,   currency:'USD', note:'$0.07+ bundled', cls:'' },
   { name:'Synthflow',       rate:0.08, extra:0,   currency:'USD', note:'All-in bundled', cls:'' },
